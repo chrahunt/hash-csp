@@ -1,0 +1,22 @@
+{
+  "name": "hash-csp",
+  "version": "0.0.1",
+  "description": "plugin for processing/generating hash from inline scripts for csp",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Chris Hunt <chrahunt@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "readable-stream": "^2.1.4",
+    "sjcl": "^1.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "vinyl-fs": "^2.4.3"
+  },
+  "repository": "chrahunt/hash-csp"
+}
